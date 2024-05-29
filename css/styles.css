@@ -1,5 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.header h1{
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
 
+
+body{
+    background-color: rgb(197, 202, 233);
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    padding: 80px 150px 80px 150px;
+    background: white;
+    border-radius: 10px;
+}
+
+.box .section1 h1{
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 102, 255);
+    text-align: center;
+    font-size: 17px;
+}
+
+.box .section1 h2{
+    font-family: "Anek Devanagari", sans-serif;
+    color: rgb(0, 0, 51);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box .section1 p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 0;
+    padding: 0 0 70px 0;
+    font-size: 15px;
+    color: gray;
+}
+
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.section2{
+    display: flex;
+    margin-bottom: 100px;
+    height: 100px;
+}
+
+.section2 h1{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: rgb(0, 0, 51);
+}
+
+.section2 p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 1px;
+    font-size: 15px;
+}
+
+.section2 .avion{
+    margin-right: 150px;
+}
+
+.section2 .visa{
+    margin-right: 100px;
+}
+
+
+.section3 {
+    display: flex;
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+.section3 h1{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: rgb(0, 0, 51);
+}
+
+.section3 p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 1px;
+    font-size: 15px;
+}
+
+.section3 .tour{
+    margin-right: 100px;
+}
+
+.section3 .reclutar{
+    margin-right: 100px;
 }
